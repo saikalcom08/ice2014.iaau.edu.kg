@@ -1,0 +1,113 @@
+@import url("../css/bootstrap.min.css");
+body{
+    background-image: url(../images/back1.jpg);
+
+}
+#body_border{
+    width: 970px;
+    height: 1246px;
+    border: 5px solid #E5E5E5;
+    margin:0 auto 0 auto;
+}
+
+#header1,#header2,#menu,#wrapper{
+    width:960px;
+
+}
+#header1{
+   /* background-color: #1781B5;  */
+    height:30px;
+}
+#h_language{
+    float:right;
+    padding:20px 20px 5px 5px;
+}
+#facebook{
+    float:left;
+    padding:20px 0px 0px 20px;
+}
+#menu{
+   /* background-color: #ffffff;  */
+    padding:20px 0px 20px 250px;
+}
+.nav nav-pills {
+    width: 100%;
+    float: left;
+    /*margin:  0 0 0;*/
+    padding: 15px 0px 0px 230px;
+    list-style: none;
+    /*background-color: #1781B5;
+    /*border-bottom: 1px solid #ccc;*/
+   /* border-top: 1px solid #ccc; */
+}
+/*#nav li {
+    float: left;
+}         */
+
+.nav li a  {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    /*border-right: 1px solid #ccc;*/
+}
+
+#header2{
+   /* background-image: url(../images/world-map-background.jpg); */
+    height:140px;
+}
+#logo_text{
+    width: 600px;
+    line-height: 2px;
+    padding-top:20px;
+    margin-left:230px;
+}
+#logo{
+    float:left;
+    padding:10px 0px 0px 100px;
+}
+#wrapper{
+    height: 960px;
+   /* background-color: #1781B5;  */
+   /* background-image:url(../images/alien.jpg) ;
+    background-repeat: repeat;*/
+}
+#slides{
+    display:none;
+}
+#left_menu,#content{
+    float:left;
+    margin: 10px;
+    border-radius: 10px;
+    height: 930px;
+}
+#left_menu{
+    background-color: #ffffff;
+    width:260px;
+    padding:50px 20px 20px 20px;
+
+}
+#left_nav li a{
+    text-decoration: none;
+    list-style-type:none;
+}
+
+#content{
+    line-height: 150%;
+    background-color: window;
+    padding:30px 20px 20px 20px;
+    width:650px;
+    font-family: Calibri;
+    font-size: 16px;
+}
+#content > h3{
+    color:#2E3855;
+    font-weight: bold;
+}
+
+#footer{
+    width:100%;
+    height: 30px;
+    margin: 0px;
+   /* background-color: #1781B5;                 */
+}
