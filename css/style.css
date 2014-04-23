@@ -30,7 +30,7 @@ body{
    /* background-color: #ffffff;  */
     padding:20px 0px 20px 250px;
 }
-.nav nav-pills {
+.nav .nav-pills {
     width: 100%;
     float: left;
     /*margin:  0 0 0;*/
@@ -103,6 +103,12 @@ body{
 #content > h3{
     color:#2E3855;
     font-weight: bold;
+}
+#content > p > a{
+    color: darkblue;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 #footer{
